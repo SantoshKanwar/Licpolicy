@@ -1,0 +1,510 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Licpolicy.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Licpolicy.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Licpolicy"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Licpolicy Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2013",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_LICPOLICY_DIALOG DIALOGEX 0, 0, 504, 249
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Licpolicy"
+FONT 14, "Calibri"
+BEGIN
+    LTEXT           "    Welcome to the world of LIC",IDC_STATIC,163,14,196,
+                    42
+    LTEXT           "Username  :",IDC_STATIC,57,68,110,22
+    LTEXT           "Password  :",IDC_STATIC,59,100,79,26
+    EDITTEXT        IDC_EDIT1,169,66,121,24,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,169,100,123,24,ES_AUTOHSCROLL
+    PUSHBUTTON      "L O G I N",IDC_BUTTON1,57,142,92,28
+    LTEXT           "Don't have an Account???",IDC_STATIC,53,192,154,16
+    PUSHBUTTON      "SIGN UP",IDC_BUTTON2,61,220,92,28
+    LTEXT           "HERE",IDC_STATIC,174,224,31,16
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 466, 263
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 693, 347
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 18, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Button3",IDC_BUTTON3,7,9,56,40
+    LTEXT           "JEEVAN NIDHI",IDC_STATIC,135,9,47,8
+    LTEXT           "You Receive Blessings all your Life. That's why our Jeevan Nidhi Offers youa pension with Many Options",
+                    IDC_STATIC,94,25,177,19
+    LTEXT           "Salient Features",IDC_STATIC,39,67,51,8
+    LTEXT           "Guranteed Additions ",IDC_STATIC,106,68,65,8
+    LTEXT           "Participation in profits",IDC_STATIC,106,80,67,8
+    LTEXT           "Benefits on Vesting",IDC_STATIC,107,92,60,8
+    LTEXT           "Death Benefit on death before annuity vests",IDC_STATIC,
+                    36,119,65,22
+    LISTBOX         IDC_LIST1,105,120,91,14,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Annuity Options",IDC_STATIC,36,152,56,8
+    LISTBOX         IDC_LIST2,106,148,91,14,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "HOME",IDC_BUTTON4,269,9,50,14
+END
+
+IDD_DIALOG4 DIALOG DISCARDABLE  0, 0, 609, 326
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 18, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,7,59,45
+    LTEXT           "BIMA BACHAT",IDC_STATIC,116,7,46,8
+    LTEXT           "Wouldn't IT BE GREAT IF YOU  NEEDED TO WATER IT JUST ONCE???",
+                    IDC_STATIC,77,20,155,17
+    LTEXT           "BENEFITS  :",IDC_STATIC,33,66,40,8
+    COMBOBOX        IDC_COMBO1,83,67,65,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,158,66,69,14,ES_AUTOHSCROLL
+    LTEXT           "Eligibility Condition :",IDC_STATIC,33,81,44,16
+    COMBOBOX        IDC_COMBO2,84,84,64,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,159,84,68,14,ES_AUTOHSCROLL
+    LTEXT           "Retail For High sum Assured",IDC_STATIC,31,104,46,18
+    COMBOBOX        IDC_COMBO3,83,106,62,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT3,160,107,67,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "HOME",IDC_BUTTON2,239,7,50,14
+END
+
+IDD_DIALOG5 DIALOG DISCARDABLE  0, 0, 547, 273
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 18, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,7,57,43
+    LTEXT           "LIC JEEVAN SATHI PLUS",IDC_STATIC,91,7,93,10
+    LTEXT           "TOGETHER FOREVER",IDC_STATIC,88,27,84,8
+    LTEXT           "Payment Of Premiums",IDC_STATIC,21,71,85,8
+    COMBOBOX        IDC_COMBO1,105,69,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Death Benefits",IDC_STATIC,22,84,46,8
+    COMBOBOX        IDC_COMBO2,106,82,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Maturity Benefits",IDC_STATIC,23,98,53,8
+    COMBOBOX        IDC_COMBO3,106,96,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,162,67,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,162,81,50,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,162,94,50,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "HOME",IDC_BUTTON1,228,7,50,14
+END
+
+IDD_DIALOG6 DIALOG DISCARDABLE  0, 0, 661, 273
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 18, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,7,7,59,40
+    LTEXT           "LIC NEW BIMA GOLD",IDC_STATIC,100,7,73,8
+    LTEXT           "GOLD NEVER LOSES ITS VALUE !!!!",IDC_STATIC,100,25,114,
+                    8
+    LTEXT           "Benefits :",IDC_STATIC,46,65,34,8
+    COMBOBOX        IDC_COMBO1,105,64,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,163,63,40,14,ES_AUTOHSCROLL
+    LTEXT           "Death Benefits :",IDC_STATIC,40,79,49,8
+    COMBOBOX        IDC_COMBO2,105,81,48,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,163,79,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "HOME",IDC_BUTTON1,230,7,50,14
+END
+
+IDD_DIALOG7 DIALOG DISCARDABLE  0, 0, 685, 360
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 18, "MS Sans Serif"
+BEGIN
+    LTEXT           "L I C   POLICIES",IDC_STATIC,86,7,51,8
+    LTEXT           "POLICY ID",IDC_STATIC,28,44,37,8
+    LTEXT           "POLICY NAME :",IDC_STATIC,27,57,51,8
+    LTEXT           "POLICY TYPE",IDC_STATIC,27,70,46,8
+    EDITTEXT        IDC_EDIT1,90,43,71,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,90,56,71,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,90,69,71,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "INSERT",IDC_BUTTON1,14,92,50,14
+    PUSHBUTTON      "UPDATE",IDC_BUTTON2,73,93,50,14
+    PUSHBUTTON      "DELETE",IDC_BUTTON3,129,92,50,14
+    PUSHBUTTON      "SEARCH BY ID",IDC_BUTTON4,169,54,50,14
+    EDITTEXT        IDC_EDIT4,169,39,48,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,225,40,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SEARCH BY NAME",IDC_BUTTON6,226,54,60,14
+END
+
+IDD_DIALOG8 DIALOG DISCARDABLE  0, 0, 647, 291
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 18, "MS Sans Serif"
+BEGIN
+    LTEXT           "L I C   AGENTS",IDC_STATIC,88,7,100,17
+    LTEXT           "AGENT ID  :",IDC_STATIC,66,41,38,8
+    EDITTEXT        IDC_EDIT1,118,39,65,12,ES_AUTOHSCROLL
+    LTEXT           " NAME :",IDC_STATIC,64,57,26,8
+    EDITTEXT        IDC_EDIT2,118,58,65,12,ES_AUTOHSCROLL
+    LTEXT           "CITY",IDC_STATIC,65,73,17,8
+    EDITTEXT        IDC_EDIT4,117,75,66,12,ES_AUTOHSCROLL
+    LTEXT           "EXPERIENCE",IDC_STATIC,65,90,45,8
+    EDITTEXT        IDC_EDIT5,117,93,66,12,ES_AUTOHSCROLL
+    LTEXT           "TYPE  :",IDC_STATIC,65,111,24,8
+    COMBOBOX        IDC_COMBO1,117,112,66,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "INSERT",IDC_BUTTON2,7,140,50,14
+    PUSHBUTTON      "UPDATE",IDC_BUTTON3,71,140,50,14
+    PUSHBUTTON      "DELETE",IDC_BUTTON4,137,140,50,14
+    EDITTEXT        IDC_EDIT6,207,37,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SEARCH BY ID",IDC_BUTTON5,207,55,50,14
+    EDITTEXT        IDC_EDIT7,208,72,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "SEARCH BY NAME",IDC_BUTTON6,207,91,61,14
+END
+
+IDD_LICPOLICIES_DIALOG DIALOGEX 0, 0, 467, 274
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "licpolicies"
+FONT 16, "Calibri"
+BEGIN
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 304, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 18, "MS Sans Serif"
+BEGIN
+    LTEXT           "LIC  FORTUNE  PLUS",IDC_STATIC,92,18,136,16
+    PUSHBUTTON      "Button1",IDC_BUTTON1,7,18,60,39
+    LTEXT           "Shape your world with LIC",IDC_STATIC,88,39,144,9
+    LTEXT           "Payment of Premium  :",IDC_STATIC,39,81,70,8
+    LTEXT           "You may pay premium regularly at yearly ,half-yearly or monthly intervals for 5 years",
+                    IDC_STATIC,114,81,129,25
+    LTEXT           "Benefits :",IDC_STATIC,39,103,64,11
+    CONTROL         "Death Benefits ",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,
+                    116,103,62,13
+    CONTROL         "Maturity Benefit",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,116,116,63,10
+    LTEXT           "Eligibility Condition :",IDC_STATIC,37,130,63,8
+    COMBOBOX        IDC_COMBO1,115,129,99,30,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "HOME",IDC_BUTTON3,228,18,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Licpolicy MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Licpolicy\0"
+            VALUE "LegalCopyright", "Copyright (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Licpolicy.EXE\0"
+            VALUE "ProductName", "Licpolicy Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LICPOLICY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 497
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 18
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG4 DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 80, 0
+0x6544, 0x7461, 0x2068, 0x6542, 0x656e, 0x6966, 0x7374, 0x2c20, 0x5320, 
+0x7275, 0x6976, 0x6176, 0x206c, 0x6542, 0x656e, 0x6966, 0x7374, 0x2c20, 
+0x4620, 0x726f, 0x5020, 0x6c6f, 0x6369, 0x2079, 0x6554, 0x6d72, 0x3920, 
+0x5920, 0x6165, 0x7372, 0x2c20, 0x614d, 0x7574, 0x6972, 0x7974, 0x4220, 
+0x6e65, 0x6665, 0x7469, 0x0073, 
+    IDC_COMBO2, 0x403, 82, 0
+0x6741, 0x2065, 0x7461, 0x6520, 0x746e, 0x7972, 0x2c20, 0x4120, 0x6567, 
+0x6120, 0x2074, 0x614d, 0x7574, 0x6972, 0x7974, 0x2c20, 0x5420, 0x7265, 
+0x206d, 0x202c, 0x694d, 0x696e, 0x756d, 0x206d, 0x7553, 0x206d, 0x7341, 
+0x7573, 0x6572, 0x2064, 0x202c, 0x614d, 0x6978, 0x756d, 0x206d, 0x7573, 
+0x206d, 0x7341, 0x7573, 0x6572, 0x0064, 
+    IDC_COMBO3, 0x403, 80, 0
+0x654c, 0x7373, 0x5420, 0x6168, 0x206e, 0x7352, 0x202e, 0x3035, 0x302c, 
+0x3030, 0x202c, 0x7352, 0x202e, 0x3035, 0x302c, 0x3030, 0x6120, 0x646e, 
+0x4c20, 0x7365, 0x2073, 0x6874, 0x6e61, 0x5220, 0x2e73, 0x3120, 0x4c20, 
+0x6b61, 0x2068, 0x522c, 0x2e73, 0x3120, 0x4c20, 0x6b61, 0x2068, 0x6e61, 
+0x2064, 0x6241, 0x766f, 0x0065, 
+    0
+END
+
+IDD_DIALOG5 DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 36, 0
+0x6559, 0x7261, 0x796c, 0x482c, 0x6c61, 0x2d66, 0x6579, 0x7261, 0x796c, 
+0x512c, 0x6175, 0x7472, 0x6c65, 0x2c79, 0x6f4d, 0x746e, 0x6c68, 0x0079, 
+
+    IDC_COMBO2, 0x403, 214, 0
+0x6e4f, 0x4420, 0x6165, 0x6874, 0x4f20, 0x2066, 0x2e50, 0x2e4c, 0x2e41, 
+0x7720, 0x6968, 0x656c, 0x5320, 0x4c2e, 0x412e, 0x202e, 0x7369, 0x6120, 
+0x696c, 0x6576, 0x4f2c, 0x206e, 0x6564, 0x7461, 0x2068, 0x664f, 0x5020, 
+0x4c2e, 0x412e, 0x202e, 0x6661, 0x6574, 0x2072, 0x6874, 0x2065, 0x6564, 
+0x7461, 0x2068, 0x666f, 0x5320, 0x4c2e, 0x412e, 0x2c2e, 0x6e4f, 0x4420, 
+0x6165, 0x6874, 0x6f20, 0x2066, 0x2e53, 0x2e4c, 0x2e41, 0x7720, 0x6968, 
+0x656c, 0x5020, 0x4c2e, 0x412e, 0x202e, 0x7369, 0x6120, 0x696c, 0x6576, 
+0x4f2c, 0x206e, 0x6544, 0x7461, 0x2068, 0x666f, 0x5320, 0x4c2e, 0x412e, 
+0x612e, 0x7466, 0x7265, 0x7420, 0x6568, 0x6420, 0x6165, 0x6874, 0x6f20, 
+0x2066, 0x2e50, 0x2e4c, 0x2e41, 0x4f2c, 0x206e, 0x6953, 0x756d, 0x746c, 
+0x6e61, 0x6f65, 0x7375, 0x6420, 0x6165, 0x6874, 0x6f20, 0x2066, 0x2e50, 
+0x2e4c, 0x2e41, 0x6120, 0x646e, 0x5320, 0x4c2e, 0x412e, 0x002e, 
+    IDC_COMBO3, 0x403, 23, 0
+0x6e4f, 0x6220, 0x746f, 0x2068, 0x2e50, 0x2e4c, 0x2c41, 0x726f, 0x5320, 
+0x4c2e, 0x412e, "\000" 
+    0
+END
+
+IDD_DIALOG6 DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 119, 0
+0x7553, 0x7672, 0x7669, 0x6c61, 0x4220, 0x6e65, 0x6665, 0x7469, 0x2c73, 
+0x6f46, 0x2072, 0x6f70, 0x696c, 0x7963, 0x7420, 0x7265, 0x206d, 0x3120, 
+0x2032, 0x6579, 0x7261, 0x2c73, 0x6f46, 0x2072, 0x6f70, 0x696c, 0x7963, 
+0x7420, 0x7265, 0x206d, 0x3631, 0x7920, 0x6165, 0x7372, 0x462c, 0x726f, 
+0x7020, 0x6c6f, 0x6369, 0x2079, 0x6574, 0x6d72, 0x3220, 0x2030, 0x6579, 
+0x7261, 0x2c73, 0x6e4f, 0x4520, 0x7078, 0x7269, 0x2079, 0x666f, 0x5020, 
+0x6c6f, 0x6369, 0x2079, 0x6574, 0x6d72, "\000" 
+    IDC_COMBO2, 0x403, 61, 0
+0x7544, 0x6972, 0x676e, 0x7420, 0x6568, 0x7020, 0x6c6f, 0x6369, 0x2079, 
+0x6574, 0x6d72, 0x752c, 0x6972, 0x676e, 0x7420, 0x6568, 0x6520, 0x7478, 
+0x6e65, 0x6564, 0x2064, 0x6574, 0x6d72, 0x452c, 0x7478, 0x6e65, 0x6564, 
+0x2064, 0x6554, 0x6d72, "\000" 
+    0
+END
+
+IDD_DIALOG1 DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 153, 0
+0x694d, 0x696e, 0x756d, 0x206d, 0x6741, 0x2065, 0x7441, 0x6520, 0x746e, 
+0x7972, 0x202c, 0x614d, 0x6978, 0x756d, 0x206d, 0x6741, 0x2065, 0x7461, 
+0x6520, 0x746e, 0x7972, 0x2c20, 0x4d20, 0x6e69, 0x6d69, 0x6d75, 0x4d20, 
+0x7461, 0x7275, 0x7469, 0x2079, 0x6741, 0x2065, 0x202c, 0x614d, 0x6978, 
+0x756d, 0x206d, 0x614d, 0x7574, 0x6972, 0x7974, 0x4120, 0x6567, 0x2c20, 
+0x4d20, 0x6e69, 0x6d69, 0x6d75, 0x5020, 0x6c6f, 0x6369, 0x2079, 0x6554, 
+0x6d72, 0x2c20, 0x4d20, 0x7861, 0x6d69, 0x6d75, 0x5020, 0x6c6f, 0x6369, 
+0x2079, 0x6554, 0x6d72, 0x2c20, 0x4d20, 0x6e69, 0x6d69, 0x6d75, 0x5020, 
+0x6572, 0x696d, 0x6d75, 0x2c20, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "POLICY"
+    BEGIN
+        MENUITEM "JEEVAN NIDHI",                ID_POLICY_JEEVANNIDHI
+        MENUITEM "BIMA GOLD",                   ID_POLICY_BIMAG
+        MENUITEM "FORTUNE PLUS",                ID_POLICY_FORTUNEPLUS
+        MENUITEM "JEEVAN SATHI",                ID_POLICY_JEEVANSATHI
+        MENUITEM "BIMA BACHAT",                 ID_POLICY_BIMABACHAT
+    END
+    POPUP "REGISTRATION"
+    BEGIN
+        MENUITEM "AS A AGENT",                  ID_REGISTRATION_ASAAGENT
+        MENUITEM "POLICY",                      ID_REGISTRATION_POLICY
+    END
+    POPUP "REPORTS"
+    BEGIN
+        MENUITEM "ABOUT US",                    ID_REPORTS_CUSTOMER
+        MENUITEM "POLICY",                      ID_REPORTS_POLICY
+    END
+    MENUITEM "HELP",                        65535
+    MENUITEM "EXIT",                        65535
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Licpolicy..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Licpolicy.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
